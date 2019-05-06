@@ -1,6 +1,6 @@
 var now = new Date();
 // 1학기 중간고사
-
+/*
 var then1 = new Date("april 29,2019 00:00:00");
 var gap1 = then1.getTime() - now.getTime() ;
 gap1 = Math.floor(gap1 / (1000 * 60 * 60 * 24)) ;
@@ -12,7 +12,7 @@ var then1_25 = new Date("may 2,2019 00:00:00");
 var gap1_25 = then1_25.getTime() - now.getTime() ;
 gap1_25 = Math.floor(gap1_25 / (1000 * 60 * 60 * 24)) ;
 document.write(  '5/2 &nbsp &nbsp 서울랜드 D-' + (gap1_25+1) +'<br><br>'  ) ;
-
+*/
 //소래산등반
 
 var then1_5 = new Date("may 9,2019 00:00:00");
