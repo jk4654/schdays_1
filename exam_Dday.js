@@ -12,7 +12,7 @@ var then1_25 = new Date("may 2,2019 00:00:00");
 var gap1_25 = then1_25.getTime() - now.getTime() ;
 gap1_25 = Math.floor(gap1_25 / (1000 * 60 * 60 * 24)) ;
 document.write(  '5/2 &nbsp &nbsp 서울랜드 D-' + (gap1_25+1) +'<br><br>'  ) ;
-*/
+
 //소래산등반
 
 var then1_5 = new Date("may 9,2019 00:00:00");
@@ -54,7 +54,7 @@ var then2_5 = new Date("august 16,2019 00:00:00");
 var gap2_5 = then2_5.getTime() - now.getTime() ;
 gap2_5 = Math.floor(gap2_5 / (1000 * 60 * 60 * 24)) ;
 document.write(  '8/16 &nbsp &nbsp 개학 D-' + (gap2_5+1) +'<br><br>'  ) ;
-
+*/
 //2학년 2학기 중간고사
 var now = new Date();
 var then3 = new Date("september 24,2019 00:00:00");

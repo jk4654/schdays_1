@@ -2,3 +2,9 @@
    border-style: inset ;
    border      : 7px
 }
+.name{
+  width: 700px;
+  height: 1200px;
+  font-size: 25px;
+  margin-left: 50px;
+}
