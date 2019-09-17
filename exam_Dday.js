@@ -60,25 +60,25 @@ var now = new Date();
 var then3 = new Date("september 24,2019 00:00:00");
 var gap3 = then3.getTime() - now.getTime() ;
 gap3 = Math.floor(gap3 / (1000 * 60 * 60 * 24)) ;
-document.write(  '9/24 &nbsp &nbsp 2학년 2학기 중간고사 D-' + (gap3+1) +'<br><br>'  ) ;
+document.write(  '9/24 &nbsp &nbsp 2학년 2학기 중간고사 D-'.big() + (gap3+1) +'<br><br>'  ) ;
 
 //웃터골예술제
 var now = new Date();
 var then3_25 = new Date("october 25,2019 00:00:00");
 var gap3_25 = then3_25.getTime() - now.getTime() ;
 gap3_25 = Math.floor(gap3_25 / (1000 * 60 * 60 * 24)) ;
-document.write(  '10/25 &nbsp &nbsp 웃터골예술제 D-' + (gap3_25+1) +'<br><br>'  ) ;
+document.write(  '10/25 &nbsp &nbsp 웃터골예술제 D-'.big() + (gap3_25+1) +'<br><br>'  ) ;
 
 //2학년 2학기 기말고사
 var now = new Date();
 var then4 = new Date("december 9,2019 00:00:00");
 var gap4 = then4.getTime() - now.getTime() ;
 gap4 = Math.floor(gap4 / (1000 * 60 * 60 * 24)) ;
-document.write(  '12/9 &nbsp &nbsp 2학년 2학기 기말고사 D-' + (gap4+1) +'<br><br>'  ) ;
+document.write(  '12/9 &nbsp &nbsp 2학년 2학기 기말고사 D-'.big() + (gap4+1) +'<br><br>'  ) ;
 
 //종업식
 var now = new Date();
 var then5 = new Date("january 7,2020 00:00:00");
 var gap5 = then5.getTime() - now.getTime() ;
 gap5 = Math.floor(gap5 / (1000 * 60 * 60 * 24)) ;
-document.write(  '1/7 종업식 D-' + (gap5+1) +'<br><br>'  ) ;
+document.write(  '1/7 종업식 D-'.big() + (gap5+1) +'<br><br>'  ) ;
